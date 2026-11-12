@@ -1,0 +1,1 @@
+global.pesterlog[0] = "";
