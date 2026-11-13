@@ -29,12 +29,13 @@
     {"$GMFolder":"","%Name":"Quick Functions","folderPath":"folders/Scribble/Quick Functions.yy","name":"Quick Functions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Superfonts","folderPath":"folders/Scribble/Superfonts.yy","name":"Superfonts","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
+  ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"autocolors.txt","CopyToMask":-1,"filePath":"datafiles","name":"autocolors.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"pesterlog.txt","CopyToMask":-1,"filePath":"datafiles","name":"pesterlog.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"scribble_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"scribble_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"TYPOSTUCK (SLIGHTLY BETTER CLASSIC HOMESTUCK FONT).TTF","CopyToMask":-1,"filePath":"datafiles","name":"TYPOSTUCK (SLIGHTLY BETTER CLASSIC HOMESTUCK FONT).TTF","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -43,7 +44,7 @@
   },
   "name":"Pesterchum Dub Tool",
   "resources":[
-    {"id":{"name":"fnt_couriernew","path":"fonts/fnt_couriernew/fnt_couriernew.yy",},},
+    {"id":{"name":"fnt_typostuck","path":"fonts/fnt_typostuck/fnt_typostuck.yy",},},
     {"id":{"name":"scribble_fallback_font","path":"fonts/scribble_fallback_font/scribble_fallback_font.yy",},},
     {"id":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

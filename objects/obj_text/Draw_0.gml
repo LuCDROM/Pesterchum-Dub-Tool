@@ -1,12 +1,16 @@
 scr_textreader();
-draw_set_font(fnt_couriernew);
 scribble_color_set("Abby", #ff5900);
 for (var i = 0; i < global.linecount; i++) {
-	for (var j = 0; j < global.colcount; j += 3) {
-		if (string_starts_with(global.pesterlog[i], global.col1[j])) {
-			draw_set_colour(global.col2[j+1]);
-			//global.pesterlog[i] = global.col[j+1];
+	/*for (var j = 0; j < global.colcount; j += 5) {
+		if (string_starts_with(global.pesterlog[i], global.col[j])) {
+			draw_set_colour(make_colour_rgb(global.col[j+1], global.col[j+2], global.col[j+3]));
 		}
+	}*/
+	
+	draw_text_scribble_ext(0, yvalue + (y2*15), global.pesterlog[i], 650);
+	y2++;
+	if (string_width_scribble(global.pesterlog[i]) > 650) {
+		y2++;
 	}
-	draw_text_scribble(0, i*12, global.pesterlog[i]);
 }
+y2 = 0;
