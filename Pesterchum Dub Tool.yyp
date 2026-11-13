@@ -31,8 +31,10 @@
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"autocolors.txt","CopyToMask":-1,"filePath":"datafiles","name":"autocolors.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"pesterlog.txt","CopyToMask":-1,"filePath":"datafiles","name":"pesterlog.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"scribble_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"scribble_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"TYPOSTUCK (SLIGHTLY BETTER CLASSIC HOMESTUCK FONT).TTF","CopyToMask":-1,"filePath":"datafiles","name":"TYPOSTUCK (SLIGHTLY BETTER CLASSIC HOMESTUCK FONT).TTF","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
