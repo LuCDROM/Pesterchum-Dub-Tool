@@ -1,11 +1,12 @@
 function scr_textreader(){
 	global.pesterlog[0] = "";
+	global.linecount = 0;
 	file = file_text_open_read("pesterlog.txt");
 	
-	for (var i = 0; i < 29; i++)
+	while (!file_text_eof(file))
 	{
-	    global.pesterlog[i] = file_text_read_string(file);
-	    file_text_readln(file);
+	    global.pesterlog[global.linecount] = file_text_readln(file);
+		global.linecount++;
 	}
 	
 	file_text_close(file);
