@@ -1,0 +1,26 @@
+Background Color (R, G, B)
+255
+255
+255
+
+Screen Width and Height (in pixels)
+300
+450
+
+Padding (in pixels)
+20
+
+Screen Scale
+2
+
+Screenshot (0 = No, 1 = Yes)
+0
+
+Auto Color (0 = No, 1 = Yes)
+1
+
+Print Type (0 = Entire thing, 1 = line by line, 2 = word by word, 3 = letter by letter)
+1
+
+Skip Username (0 = No, 1 = Yes) (Ex: the "EB:", "TG:", etc usually at the start of each line)
+1

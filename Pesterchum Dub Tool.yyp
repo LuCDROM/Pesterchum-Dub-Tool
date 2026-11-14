@@ -36,6 +36,7 @@
     {"$GMIncludedFile":"","%Name":"autocolors.txt","CopyToMask":-1,"filePath":"datafiles","name":"autocolors.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"pesterlog.txt","CopyToMask":-1,"filePath":"datafiles","name":"pesterlog.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"scribble_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"scribble_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"settings.txt","CopyToMask":-1,"filePath":"datafiles","name":"settings.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
