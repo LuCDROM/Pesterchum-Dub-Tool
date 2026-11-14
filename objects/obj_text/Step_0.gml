@@ -1,7 +1,7 @@
 var next = keyboard_check(ord("S")) || keyboard_check_pressed(ord("D")) || keyboard_check(vk_down) || keyboard_check_pressed(vk_right);
 var back = keyboard_check(ord("W")) || keyboard_check_pressed(ord("A")) || keyboard_check(vk_up) || keyboard_check_pressed(vk_left);
 
-if (global.printtype == 0) {
+if (global.printtype == 0) { //line by line
 	pesterlog2 = global.pesterlog;
 	for (var i = 0; i < global.linecount; i++) {
 		placement[i] = string_length(pesterlog2[i]);
@@ -15,12 +15,22 @@ if (global.printtype == 0) {
 		if (low > 0) {yvalue += getTextH(0);}
 		if (linecount2 <= low-1) {yvalue = global.padding; low = -1;}
 	}
-} else if (global.printtype == 2) {
+} else if (global.printtype == 2) { //letter by letter
+	pesterlog2 = global.pesterlog;
 	if (next) {
-		placement[linecount2]++;
-		if (placement[linecount2] >= string_length(global.pesterlog[linecount2])) {
-			//placement[linecount2] = 0;
+		if (placement[linecount2-1] < string_length(global.pesterlog[linecount2-1])) {
+			placement[linecount2-1]++;
+		}
+		if (placement[linecount2-1] >= (string_length(global.pesterlog[linecount2-1]) - 5)) {
 			increase = true;
+		}
+	}
+	if (back) {
+		if (placement[linecount2-1] > 0) {
+			placement[linecount2-1]--;
+		}
+		if (placement[linecount2-1] <= 0) {
+			decrease = true;
 		}
 	}
 	
@@ -28,7 +38,7 @@ if (global.printtype == 0) {
 		increase = false;
 		linecount2++;
 		if (low > 0) {yvalue -= getTextH(-1);}
-	} else if (decrease && linecount2 > 0) {
+	} else if (decrease && linecount2 > 1) {
 		decrease = false;
 		linecount2--;
 		if (low > 0) {yvalue += getTextH(0);}

@@ -21,7 +21,6 @@ function scr_textreader(){
 	global.screenshot = real(settings[17]);
 	global.autocolor = real(settings[20]); //done
 	global.printtype = real(settings[23]);
-	global.skipuser = real(settings[26]);
 	
 	//Pesterlog
 	file = file_text_open_read("pesterlog.txt");

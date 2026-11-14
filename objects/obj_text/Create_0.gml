@@ -5,7 +5,8 @@ yvalue = global.padding;
 y2 = 0;
 low = -1;
 
-linecount2 = 0;
+if (global.printtype == 0) {linecount2 = 0;}
+else {linecount2 = 1;}
 pesterlog2[0] = "";
 placement[0] = 0;
 for (var i = 0; i <= global.linecount; i++) {
@@ -13,7 +14,7 @@ for (var i = 0; i <= global.linecount; i++) {
 	placement[i] = string_length(pesterlog2[i]);
 }
 
-increase = true;
+increase = false;
 decrease = false;
 
 view_wport[0] = global.width;
