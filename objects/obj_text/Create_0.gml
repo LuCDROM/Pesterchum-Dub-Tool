@@ -5,9 +5,16 @@ yvalue = global.padding;
 y2 = 0;
 low = -1;
 
-pesterlog2[0] = "";
 linecount2 = 0;
-placement = 0;
+pesterlog2[0] = "";
+placement[0] = 0;
+for (var i = 0; i <= global.linecount; i++) {
+	pesterlog2[i] = "";
+	placement[i] = string_length(pesterlog2[i]);
+}
+
+increase = true;
+decrease = false;
 
 view_wport[0] = global.width;
 view_hport[0] = global.height;

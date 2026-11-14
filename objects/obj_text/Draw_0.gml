@@ -14,7 +14,7 @@ for (var i = 0; i < linecount2; i++) { //this exists to prevent an extra frame w
 y2 = 0;
 
 for (var i = 0; i < linecount2; i++) { //actually drawing
-	draw_text_scribble_ext(global.padding, yvalue + y2, pesterlog2[i], (global.width - (2*global.padding)));
+	draw_text_scribble_ext(global.padding, yvalue + y2, pesterlog2[i], (global.width - (2*global.padding)), placement[i]);
 	
 	var textH = (string_height_scribble_ext(pesterlog2[i], (global.width - (2*global.padding))) - 1);
 	if (textH < 15) {textH = 15;}
