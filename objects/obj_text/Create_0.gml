@@ -3,7 +3,11 @@ draw_set_font(fnt_typostuck);
 
 yvalue = global.padding;
 y2 = 0;
-//linecount2 = 
+low = -1;
+
+pesterlog2[0] = "";
+linecount2 = 0;
+placement = 0;
 
 view_wport[0] = global.width;
 view_hport[0] = global.height;

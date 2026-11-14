@@ -4,7 +4,7 @@ Background Color (R, G, B)
 255
 
 Screen Width and Height (in pixels)
-300
+650
 450
 
 Padding (in pixels)
