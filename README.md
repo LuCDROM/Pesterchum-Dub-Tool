@@ -24,6 +24,8 @@ The controls are:
   - Space to screenshot
     - Saved to AppData/Local/Pesterchum_Dub_Tool/Screenshots
     - May be overwritten every time application is relaunched
+  - 1, 2, 3 to swap between line by line, word by word, letter by letter
+    - Swapping between line by line and the others tends to be a bit buggy, so I'd advise just setting this through the settings.txt file
 
 ### color.txt
 
@@ -52,7 +54,7 @@ If there are any square brackets in your pesterlog, you must add an extra one to
 
 As mentioned previously, with the "Auto Color" setting on, lines beginning with whatever you titled your colours will automatically be that colour. You can also set up in-line colour changes in your pesterlog with [colorname].
 
-The typical opening line of a pesterlog would be written something like this.
+The typical opening line of a pesterlog would be written something like this:
 ```
 -- carcinoGeneticist [CG:][[CG][--] began pestering ectoBiologist [EB:][[EB][--] at 16:13 --
 ```
