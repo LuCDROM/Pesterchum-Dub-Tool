@@ -6,11 +6,11 @@ It will type out pesterlogs line by line (or word by word), which you can record
 
 If you use this in your videos I do ask that you credit LuCD and link this GitHub repository in the description!
 
-Also shoutout to [https://www.jujuadams.com/Scribble/#/latest/](Scribble), a text renderer for GameMaker that this would not have been possible without.
+Also shoutout to [Scribble](https://www.jujuadams.com/Scribble/#/latest/), a text renderer for GameMaker that this would not have been possible without.
 
 If you have any questions about how to use this tool, my Discord is lucdrom
 
-## Tutorial
+## How to use
 
 The program comes with three text files for you to configure: color.txt, pesterlog.txt, and settings.txt.
 
@@ -22,6 +22,8 @@ The controls are:
     - W and Up may be held to go faster
     - A and Left may be pressed
   - Space to screenshot
+    - Saved to AppData/Local/Pesterchum_Dub_Tool/Screenshots
+    - May be overwritten every time application is relaunched
 
 ### color.txt
 
@@ -40,7 +42,7 @@ CG:
 
 With the "Auto Color" setting on, any line beginning with "CG:" will be set to this colour! You can also set up in-line colour changes in your pesterlog with something like [CG:].
 
-By the way, you can find all the text colours [https://flaringk.github.io/hs-hexes/](here)!
+By the way, you can find all the text colours [here](https://flaringk.github.io/hs-hexes/)!
 
 ### pesterlog.txt
 
