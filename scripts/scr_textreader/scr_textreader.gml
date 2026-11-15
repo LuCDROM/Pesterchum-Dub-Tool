@@ -18,9 +18,9 @@ function scr_textreader(){
 	global.height = real(settings[8]); //done
 	global.padding = real(settings[11]); //done
 	global.scale = real(settings[14]); //done
-	global.screenshot = real(settings[17]);
+	global.screenshot = real(settings[17]); //done
 	global.autocolor = real(settings[20]); //done
-	global.printtype = real(settings[23]);
+	global.printtype = real(settings[23]); //done
 	
 	//Pesterlog
 	file = file_text_open_read("pesterlog.txt");
@@ -36,7 +36,7 @@ function scr_textreader(){
 	file_text_close(file);
 	
 	//Color
-	file = file_text_open_read("autocolors.txt");
+	file = file_text_open_read("color.txt");
 	global.col[0] = "";
 	global.colcount = 0;
 	

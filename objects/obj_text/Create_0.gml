@@ -1,5 +1,9 @@
 scr_textreader();
 draw_set_font(fnt_typostuck);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+
+screennum = 0;
 
 yvalue = global.padding;
 y2 = 0;

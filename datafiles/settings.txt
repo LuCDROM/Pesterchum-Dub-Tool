@@ -4,11 +4,11 @@ Background Color (R, G, B)
 255
 
 Screen Width and Height (in pixels)
-300
+650
 450
 
 Padding (in pixels)
-20
+6
 
 Screen Scale
 2
@@ -20,4 +20,4 @@ Auto Color (0 = No, 1 = Yes)
 1
 
 Print Type (1 = line by line, 2 = word by word, 3 = letter by letter)
-2
+1
